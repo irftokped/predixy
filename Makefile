@@ -17,3 +17,6 @@ debug:
 
 clean:
 	@$(make) -C src -f Makefile clean
+	
+build-docker:
+	docker build --platform=linux/amd64,linux/arm64 --output=output .

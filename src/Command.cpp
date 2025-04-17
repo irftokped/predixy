@@ -55,7 +55,7 @@ Command Command::CmdPool[AvailableCommands] = {
     {Randomkey,         "randomkey",        1,  1,         Read|NoKey},
     {Rename,            "rename",           3,  3,         Write},
     {Renamenx,          "renamenx",         3,  3,         Write},
-    {Restore,           "restore",          4,  5,         Write},
+    {Restore,           "restore",          4,  10,         Write},
     {Sort,              "sort",             2,  MaxArgs,   Write},
     {Touch,             "touch",            2,  MaxArgs,   Write|MultiKey},
     {Ttl,               "ttl",              2,  2,         Read},
